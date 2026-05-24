@@ -1,0 +1,8 @@
+[tools]
+node = "26.2.0"
+dotnet = "10.0.300"
+powershell = "7.6.2"
+"npm:npm" = "11.15.0"
+"npm:@openai/codex" = "0.133.0"
+"npm:opencode-ai" = { version = "1.15.10", npm_args = "--ignore-scripts=false" }
+"npm:@anthropic-ai/claude-code" = { version = "2.1.150", npm_args = "--ignore-scripts=false" }
