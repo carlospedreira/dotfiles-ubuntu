@@ -2,6 +2,7 @@
 neovim = "0.12.2"
 node = "26.2.0"
 dotnet = "10.0.300"
+gh = "2.92.0"
 powershell = "7.6.2"
 "npm:npm" = "11.15.0"
 "npm:@openai/codex" = "0.133.0"
