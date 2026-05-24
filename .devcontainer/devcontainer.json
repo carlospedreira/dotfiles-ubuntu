@@ -2,6 +2,16 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "chezmoi apply --source ."
-  "remoteUser": "carlos"
+  "postCreateCommand": "chezmoi apply --source .",
+  "remoteUser": "carlos",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      },
+      "extensions": [
+        "anthropic.claude-code"
+      ]
+    }
+  }
 }
