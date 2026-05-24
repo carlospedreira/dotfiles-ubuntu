@@ -1,4 +1,5 @@
 [tools]
+neovim = "0.12.2"
 node = "26.2.0"
 dotnet = "10.0.300"
 powershell = "7.6.2"
