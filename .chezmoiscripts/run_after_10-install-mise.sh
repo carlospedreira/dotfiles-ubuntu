@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
+if ! command -v mise &>/dev/null; then
+    curl https://mise.run | sh
+fi
