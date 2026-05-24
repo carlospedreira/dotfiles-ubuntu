@@ -1,0 +1,12 @@
+[user]
+    name = Carlos Pedreira
+    email = carlospedreira@users.noreply.github.com
+    signingkey = ~/.ssh/id_ed25519.pub
+[gpg]
+    format = ssh
+[commit]
+    gpgsign = true
+[init]
+    defaultBranch = main
+[push]
+    autoSetupRemote = true
