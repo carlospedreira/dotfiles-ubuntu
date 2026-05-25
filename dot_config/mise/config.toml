@@ -8,4 +8,4 @@ powershell = "7.6.2"
 "npm:@openai/codex" = "0.133.0"
 "npm:opencode-ai" = { version = "1.15.10", npm_args = "--ignore-scripts=false" }
 "npm:@anthropic-ai/claude-code" = { version = "2.1.150", npm_args = "--ignore-scripts=false" }
-"npm:t3" = "latest"
+"npm:t3" = { version = "latest", npm_args = "--ignore-scripts=false" }
