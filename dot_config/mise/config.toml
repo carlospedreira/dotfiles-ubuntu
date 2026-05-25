@@ -4,8 +4,6 @@ node = "26.2.0"
 dotnet = "10.0.300"
 gh = "2.92.0"
 powershell = "7.6.2"
-uv = "0.11.16"
-azure-cli = { version = "2.86.0", postinstall = "az extension add --name azure-devops" }
 "npm:npm" = "11.15.0"
 "npm:@openai/codex" = "0.133.0"
 "npm:opencode-ai" = { version = "1.15.10", npm_args = "--ignore-scripts=false" }
