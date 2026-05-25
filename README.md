@@ -1,6 +1,7 @@
 ## Install
 
 ```bash
+cd ~
 sh -c "$(curl -fsLS https://get.chezmoi.io/lb)" -- init --apply carlospedreira/chezmoi-ubuntu
 ```
 
